@@ -58,15 +58,11 @@ To use the pre-trained CNN+LSTM model for traffic prediction:
 
 ### 1\. Install Dependencies
 
-python
-
 ```python
 pip install torch pandas numpy matplotlib scikit-learn
 ```
 
 ### 2\. Load the Model
-
-python
 
 ```python
 import torch
@@ -146,7 +142,6 @@ model.eval()  # Set to evaluation mode
 
 ### 3\. Prepare Data for Prediction
 
-python
 
 ```python
 import numpy as np
@@ -172,7 +167,6 @@ X_pred_tensor = torch.tensor(X_pred.reshape(X_pred.shape[0], X_pred.shape[1], 1)
 
 ### 4\. Make Predictions
 
-python
 
 ```python
 # Generate predictions
@@ -186,4 +180,3 @@ predictions_original = scaler.inverse_transform(predictions_np)
 print(f"Predicted traffic volumes: {predictions_original}")
 ```
 
-y from Word or other rich text sources.
