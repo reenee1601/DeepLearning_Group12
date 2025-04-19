@@ -41,11 +41,7 @@ The final CNN+LSTM hybrid model provides accurate hour-ahead traffic predictions
 - Reduced environmental impact
 - Enhanced urban mobility
 
-Paste your rich text content here. You can paste directl
-
 ## Usage
-
-python
 
 ```python
 import torch
