@@ -14,6 +14,7 @@ This dataset contains comprehensive traffic data collected from multiple urban j
 - **Submission.ipynb**: Primary model training and evaluation file
 - **best_traffic_cnn_lstm_model.pth**: The final trained model with best performance
 - **iterations/**: Folder containing multiple iterations of models that were attempted during the development process
+- **Deep Learning Report**: Final Report
 
 ## Methodology
 Our approach involved:
